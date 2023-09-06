@@ -12,10 +12,19 @@ For your first assignment, you will explore [**The Museum of Modern Art (MoMA) C
 2. The Artists dataset: contains 15,282 records, representing all the artists who have work in MoMA's collection and have been cataloged in our database. It includes basic metadata for each artist, including name, nationality, gender, birth year, death year, Wiki QID, and Getty ULAN ID.
 
 
-The goal of this assignment is to allow you to work with data, explore it, and visualize it to tell a story. For example, you can describe the data, talk about the outliers, show interesting relationships between different features, and so on. There is no right or wrong answer so go crazy! :collision:
+The goal of this assignment is to allow you to work with data, explore it, and visualize it to tell a story.
+
+as part of your exploratory data analysis and visualization (EDAV), you should:
+* check the missing values in all your columns. please pay attention that not all missing values will be `NaN`s. Make sure that non-nan values are valid.
+* check data type of all your columns and make sure they corresponde with what you expect them to be. dates should be of `datetime` format, numbers should be of either `int` or `float`.
+* plot distribution of numeric columns and histogram of categorical columns.
+* calculate and visualize top 5 nationalities of artists
+* calculate and visualize top 5 nationalities of artists by gender
+* merge two dataframes using `ConstituentID` as the key
+* pick a nationality and filter the merged data to find all artworks done by artists of that nationality. How do you handle artworks that have multiple artists?
+* Do one extra analysis of your data that picked your interest.
 
 
-You are free to use any tool (**except for Excel** :poop:) to explore either dataset. I suggest using python especially if you haven't used it before. 
 
 
 
